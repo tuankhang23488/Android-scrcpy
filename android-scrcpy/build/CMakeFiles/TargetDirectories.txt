@@ -1,0 +1,3 @@
+C:/Users/tuank/Downloads/android-scrcpy-fast-test/android-scrcpy/build/CMakeFiles/android-scrcpy.dir
+C:/Users/tuank/Downloads/android-scrcpy-fast-test/android-scrcpy/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/tuank/Downloads/android-scrcpy-fast-test/android-scrcpy/build/CMakeFiles/ZERO_CHECK.dir

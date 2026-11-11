@@ -1,0 +1,10 @@
+^C:\USERS\TUANK\DOWNLOADS\ANDROID-SCRCPY-FAST-TEST\ANDROID-SCRCPY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tuank/Downloads/android-scrcpy-fast-test/android-scrcpy -BC:/Users/tuank/Downloads/android-scrcpy-fast-test/android-scrcpy/build --check-stamp-file C:/Users/tuank/Downloads/android-scrcpy-fast-test/android-scrcpy/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
